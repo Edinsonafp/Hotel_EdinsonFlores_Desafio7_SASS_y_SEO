@@ -116,3 +116,18 @@
 .footer a{
     text-decoration: none;
 }
+
+.nosotros__portada{
+    background-color: #d8f6ea;
+}
+
+.portada__video{
+    
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.portada__parrafo{
+    padding: 20px;
+}
