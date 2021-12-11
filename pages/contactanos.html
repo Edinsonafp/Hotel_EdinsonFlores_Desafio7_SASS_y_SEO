@@ -52,48 +52,68 @@
           </nav>
       </header>
       <!-- FIN-MENU -->
-      <!--Portada-->
-      <div class="container-fluid nosotros__portada">
-          <div class="row">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="text-center text-uppercase pt-5">Contactanos</h1>
-                </div>
-            </div>
-            <div class="col-lg-12">                
-                <iframe class="portada__video" src="https://www.youtube.com/embed/U26NcOvnsfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-sm-12">
-                <p class="text-center"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus ducimus consequuntur officia cum eos dolore, deleniti hic eveniet qui accusantium consequatur repudiandae iusto natus! Incidunt ratione non inventore possimus!
-            At facere nobis repellendus inventore eligendi non, nemo fugit aliquid consequatur impedit, placeat voluptatum expedita aspernatur quibusdam quam? Culpa rerum ducimus repellat porro explicabo quae vero maiores soluta pariatur nobis.
-            Veniam quia reiciendis quos ab nemo aspernatur exercitationem iure libero placeat omnis, ipsum debitis necessitatibus, maxime nulla? Temporibus, inventore illo aperiam qui id, harum vero velit error quidem perspiciatis necessitatibus?
-            Laboriosam vero sed reiciendis, error nihil atque. Aliquid nobis tenetur delectus ratione quibusdam, unde odit! Obcaecati fugit error totam exercitationem, tempore magnam iusto cupiditate minima illum, quaerat perferendis soluta natus?
-            Placeat nam repellendus hic nihil quisquam, fugiat ad rem libero optio alias magnam quod adipisci ratione, possimus excepturi nesciunt repellat? Minus ullam facere ex esse obcaecati facilis ipsam, et eum?
-            Aliquam itaque consequuntur numquam suscipit.
-                </p>
-            </div>
-          </div>          
-      </div>
-      <!--Portada-->
-      <!--mapa-->
-      <div class="container nosotros__mapa">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="text-center text-uppercase pt-5">Encuentranos en google map</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13098.21440822518!2d-81.71144572471034!3d12.574177188670259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f05a5e45772b3c1%3A0x8fe00622defb53ed!2sHotel%20Blue%20Reef!5e0!3m2!1ses!2sco!4v1636812090638!5m2!1ses!2sco"></iframe>
-                </div>
-            </div>
-      </div>
-      <!--fin mapa-->
 
-      
+      <!--Contactanos-->
+    <div class="container contactanos">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center text-uppercase pt-5">Contactanos</h1>
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col-md-6 col-sm-12">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13098.21440822518!2d-81.71144572471034!3d12.574177188670259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f05a5e45772b3c1%3A0x8fe00622defb53ed!2sHotel%20Blue%20Reef!5e0!3m2!1ses!2sco!4v1636812090638!5m2!1ses!2sco"></iframe>
+            </div>
+            <div class="col-md-6 col-sm-12 p-5">
+                <form>
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput">Nombre</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">Apellido</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="formGroupExampleInput2">Habitaciones</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">3</label>
+                          </div>
+                    </div>
+                    <div class="form-group mt-3">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="inputState">Cantidad de personas</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>Mas de 5</option>
+                        </select>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                      
+                </form>
+            </div>
+        </div>
+       
+    </div> 
+    <!--FIN-Contactanos-->
+
     <!--Footer-->
     <div class="container-fluid footer ">
         <div class="row text-center">
