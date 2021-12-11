@@ -1,0 +1,27 @@
+/* RESET STYLE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* MENU */
+.header__container ul li a{
+    color: blue;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #0CB088;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #0CB088
+}
+
+.nav_text_color{
+    color: #0CB088;
+}
