@@ -7,9 +7,7 @@
 }
 
 /* MENU */
-.header__container ul li a{
-    color: blue;
-}
+
 .logo{
     height: 100px;
     width: 100px;
@@ -22,6 +20,21 @@
     color: #0CB088
 }
 
-.nav_text_color{
-    color: #0CB088;
+/* Portada */
+
+.portada{
+    background-color: #d4f8d4;
 }
+
+.portada h1{
+    font-weight: bold; 
+}
+
+.portada__img{
+    height: 500px;
+}
+
+.carousel{
+    padding: 10px;
+}
+
