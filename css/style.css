@@ -23,7 +23,7 @@
 /* Portada */
 
 .portada{
-    background-color: #d4f8d4;
+    background-color: #d8f6ea;
 }
 
 .portada h1{
@@ -38,3 +38,81 @@
     padding: 10px;
 }
 
+/* Habitaciones */
+
+.habitaciones{
+    padding: 10px;
+}
+
+.habitaciones h1, .habitaciones h2{
+    font-weight: bold; 
+}
+
+.habitaciones__img1{
+    width: 100%;
+    height: 100%;
+}
+
+/* Instalaciones */
+
+.instalaciones{
+    background-color: #d8f6ea;
+}
+
+.instalaciones h1, .instalaciones h2{
+    font-weight: bold; 
+}
+
+/* review */
+
+.reviews_img{
+    width: 100%;
+}
+
+.reviews h5{
+    font-weight: bold; 
+}
+
+.card{
+    border: 0px;
+}
+
+/* Precios */
+
+.precios{
+    background-color: #d8f6ea;
+}
+
+
+.table{
+    background-color: white;
+    width: 100%;
+}
+
+.precios h1{
+    font-weight: bold;
+}
+
+.contactanos{
+}
+.mapa{
+    width:100%; 
+    height:400px;
+}
+
+.formulario{
+    border: 1px;
+}
+
+.footer{
+    background-color: #0CB088;
+    padding: 10px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+}
