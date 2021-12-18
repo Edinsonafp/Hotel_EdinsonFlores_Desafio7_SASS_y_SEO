@@ -12,9 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet">
-    
+    <!--AOS animaciones-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My Css -->
     <link rel="stylesheet" href="css/style.css">
+
+    
     <title>Hotel</title>
   </head>
   <body>
@@ -23,7 +26,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                    <img class="logo" src="img/logo.jpg" alt="">
+                    <img class="logo scale-up-center" src="img/logo.jpg" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,20 +34,20 @@
               <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active text--transformNegritas" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/promociones.html">Promociones</a>
+                    <a class="nav-link text--transformNegritas" href="pages/promociones.html">Promociones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                    <a class="nav-link text--transformNegritas" href="pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pages/reservar.html">Reservas</a>
+                    <a class="nav-link text--transformNegritas" href="pages/reservar.html">Reservas</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link " href="pages/contactanos.html">Contactanos</a>
+                    <a class="nav-link text--transformNegritas" href="pages/contactanos.html">Contactanos</a>
                   </li>
                 </ul>
               </div>
@@ -60,21 +63,21 @@
               <div class="carousel-item active">
                 <img src="img/portada.jpg" class="portada__img d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
+                    <h5>¡Nuestro Hotel, Tu Hotel!</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="img/portada2.jpg" class="portada__img d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5>¡Vistas para la vida!</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="img/portada3.jpg" class="portada__img d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>¡Tu comodidad lo es todo!</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
               </div>
@@ -112,9 +115,9 @@
                 <h1 class="text-center text-uppercase">Habitaciones</h1>
             </div>
         </div>
-        <div class="row align-items-center p-3">
+        <div class="row align-items-center p-3 ">
             <div class="col-md-6 col-sm-12">
-                <img class="habitaciones__img1" src="img/hab1.jpg" alt="Restaurante">
+                <img class="habitaciones__img1" data-aos="fade-right" src="img/hab1.jpg" alt="Restaurante">
             </div>
             <div class="col-md-6 col-sm-12 p-5">
                 <h2 class="text-center text-uppercase mt-3">Las mas comodas</h2>
@@ -124,7 +127,7 @@
                 </p>
             </div>
         </div>
-        <div class="row align-items-center p-3">
+        <div class="row align-items-center p-3 reverse">
             <div class="col-md-6 col-sm-12 p-5">
                 <h2 class="text-center text-uppercase mt-3">Todo lo que necesitas</h2>
                 <p class="text-center"> 
@@ -133,7 +136,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="habitaciones__img1" src="img/hab2.jpg" alt="Restaurante">
+                <img class="habitaciones__img1" src="img/hab2.jpg" data-aos="fade-left" alt="Restaurante">
             </div>            
         </div>
         </div>
@@ -148,7 +151,7 @@
         </div>
         <div class="row align-items-center p-3">
             <div class="col-md-6 col-sm-12">
-                <img class="habitaciones__img1" src="img/restaurante.jpg" alt="Restaurante">
+                <img class="habitaciones__img1" data-aos="fade-down-right" src="img/restaurante.jpg" alt="Restaurante">
             </div>
             <div class="col-md-6 col-sm-12 p-5">
                 <h2 class="text-center text-uppercase mt-3">Restaurante</h2>
@@ -158,7 +161,7 @@
                 </p>
             </div>
         </div>
-        <div class="row align-items-center p-3">
+        <div class="row align-items-center p-3 reverse">
             <div class="col-md-6 col-sm-12 p-5">
                 <h2 class="text-center text-uppercase mt-3">Piscina</h2>
                 <p class="text-center"> 
@@ -167,12 +170,12 @@
                 </p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="habitaciones__img1" src="img/piscina.jpg" alt="Restaurante">
+                <img class="habitaciones__img1"  data-aos="fade-down-left" src="img/piscina.jpg" alt="Restaurante">
             </div>            
         </div>
         <div class="row align-items-center p-3">
             <div class="col-md-6 col-sm-12">
-                <img class="habitaciones__img1" src="img/actividades.jpg" alt="Restaurante">
+                <img class="habitaciones__img1" data-aos="fade-down-right" src="img/actividades.jpg" alt="Restaurante">
             </div>
             <div class="col-md-6 col-sm-12 p-5">
                 <h2 class="text-center text-uppercase mt-3">Actividades</h2>
@@ -188,7 +191,7 @@
     <div class="container-fluid reviews">
         <div class="row m-3">
             <div class="col-md-12">
-                <h1 class="text-center text-uppercase">Reviews</h1>
+                <h1 class="text-center text-uppercase text--transformNegritas">Reviews</h1>
             </div>
         </div>
         <div class="row">
@@ -248,9 +251,9 @@
                 <h1 class="text-center text-uppercase pt-5">Precios por Habitacion</h1>
             </div>
         </div>
-        <div class="row align-items-center justify-content-center">
-            <div class="col-8 p-5">
-                <table class="table table-hover">
+        <div class="row align-items-center justify-content-center table-responsive">
+            <div class="col-lg-8 col-sm-12 p-5">
+                <table class="table table-hover table-responsive">
                     <thead>
                       <tr>
                         <th scope="col">Noches</th>
@@ -293,7 +296,7 @@
     <div class="container contactanos">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-center text-uppercase pt-5">Contactanos</h1>
+                <h1 class="text-center text-uppercase pt-5 text--transformNegritas">Contactanos</h1>
             </div>
         </div>
         <div class="row">            
@@ -341,7 +344,10 @@
                           <option>Mas de 5</option>
                         </select>
                       </div>
-                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="mt-3 col text-center">
+                        <button type="submit" class="btn btn-primary formulario__boton">Enviar</button>
+                    </div>
+                      
                       
                 </form>
             </div>
@@ -354,7 +360,7 @@
     <div class="container-fluid footer ">
         <div class="row text-center">
             <div class="col-md-4 col-sm-12 ">
-                <h3 class="text-uppercase">Logo</h3>
+                <h3 class="text-uppercase text--transformNegritas">Logo</h3>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="pages/nosotros.html">Nosotros</a></li>                
@@ -364,7 +370,7 @@
             </ul>
             </div>
             <div class="col-md-4 col-sm-12 ">
-                <h3 class="text-uppercase">Redes sociales</h3>
+                <h3 class="text-uppercase text--transformNegritas">Redes sociales</h3>
             <ul>
                 <li><a href="https://www.instagram.com/?hl=esl" target="_blank">Instagram</a></li>
                 <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>                
@@ -373,7 +379,7 @@
             </ul>  
             </div>
             <div class="col-md-4 col-sm-12 ">
-                <h3 class="text-uppercase">Reserva</h3>
+                <h3 class="text-uppercase text--transformNegritas">Reserva</h3>
             <ul>
                 Tel: 123-123-4567
             </ul>  
@@ -386,5 +392,9 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>  
+</body>
 </html>
