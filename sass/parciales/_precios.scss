@@ -1,0 +1,12 @@
+@import "variables";
+
+.precios{
+    background-color: $color-fondos-secundarios;
+    .table{
+        background-color: white;
+        width: 90%;
+    }
+    h1{
+        font-weight: bold;
+    }
+}

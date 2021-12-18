@@ -1,0 +1,16 @@
+@import "variables";
+
+.reviews{
+    &__img{
+        width: 100%;
+    }
+
+    h1, h5{
+        font-weight: bold; 
+    }
+
+    .card{
+        border: 0px;
+    }
+
+}

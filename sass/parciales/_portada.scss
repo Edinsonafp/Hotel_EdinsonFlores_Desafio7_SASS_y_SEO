@@ -1,0 +1,19 @@
+@import "variables";
+
+.portada{
+    background-color: $color-fondos-secundarios;
+    h1{
+        font-weight: bold;
+    }
+
+    &__carousel{
+        padding: 10px;
+    }
+
+    &__video{
+        padding: 10px;
+        width: 100%;
+        height: 500px;
+    }
+
+}

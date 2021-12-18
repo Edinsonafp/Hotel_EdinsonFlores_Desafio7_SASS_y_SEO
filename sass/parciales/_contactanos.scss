@@ -1,0 +1,16 @@
+@import "variables";
+
+.contactanos{
+    
+    h1, label{
+        font-weight: bold;
+    }
+    &__formulario{
+        border: 1px;
+        &__boton{
+            width: 40%;
+            background-color: #0CB088;
+            border-color: #0CB088;
+        }
+    }
+}

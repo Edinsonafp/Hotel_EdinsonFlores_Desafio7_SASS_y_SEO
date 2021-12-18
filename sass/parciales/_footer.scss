@@ -1,0 +1,17 @@
+@import "variables";
+
+.footer{
+    background-color: $color-principal;
+    padding: 20px 10px;
+    h3{
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+        color: white;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

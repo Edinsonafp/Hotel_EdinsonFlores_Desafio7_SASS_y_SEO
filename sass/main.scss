@@ -1,0 +1,25 @@
+@import "parciales/reset";
+@import "parciales/header";
+@import "parciales/portada";
+@import "parciales/habitaciones";
+@import "parciales/instalaciones";
+@import "parciales/reviews";
+@import "parciales/precios";
+@import "parciales/contactanos";
+@import "parciales/googleMap";
+@import "parciales/footer";
+
+@media(max-width:767px){
+    .reverse{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    .button_promo{
+        width: 100%;
+    }
+
+
+}
+
+
