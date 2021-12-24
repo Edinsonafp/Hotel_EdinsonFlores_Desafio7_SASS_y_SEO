@@ -9,17 +9,15 @@
 @import "parciales/googleMap";
 @import "parciales/footer";
 
+
 @media(max-width:767px){
     .reverse{
         display:flex;
         flex-direction:column-reverse;
     }
-
     .button_promo{
         width: 100%;
     }
-
-
 }
 
 
