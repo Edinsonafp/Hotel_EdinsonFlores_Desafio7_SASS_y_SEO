@@ -9,8 +9,8 @@
         border: 1px;
         &__boton{
             width: 40%;
-            background-color: #0CB088;
-            border-color: #0CB088;
+            background-color: map-get($botones, boton_index);
+            border-color: map-get($botones, boton_index);
         }
-    }
+    }    
 }

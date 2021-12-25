@@ -100,11 +100,11 @@
   height: 100%;
 }
 
-.instalaciones {
+.instalaciones, .promociones {
   background-color: #d8f6ea;
 }
 
-.instalaciones h1, .instalaciones h2 {
+.instalaciones h1, .promociones h1, .instalaciones h2, .promociones h2 {
   font-weight: bold;
 }
 
@@ -147,15 +147,13 @@
   border-color: #0CB088;
 }
 
-.mapa {
+.mapa, .nosotros__mapa {
   padding: 5px;
   width: 100%;
   height: 100%;
 }
 
 .nosotros__mapa {
-  padding: 5px;
-  width: 100%;
   height: 400px;
 }
 
@@ -178,6 +176,18 @@
   color: white;
 }
 
+.instalaciones, .promociones {
+  background-color: #d8f6ea;
+}
+
+.instalaciones h1, .promociones h1, .instalaciones h2, .promociones h2 {
+  font-weight: bold;
+}
+
+.promociones h2 {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 767px) {
   .reverse {
     display: -webkit-box;
@@ -190,6 +200,8 @@
   }
   .button_promo {
     width: 100%;
+    background-color: #dc3545;
+    border-color: #dc3545;
   }
 }
 /*# sourceMappingURL=main.css.map */

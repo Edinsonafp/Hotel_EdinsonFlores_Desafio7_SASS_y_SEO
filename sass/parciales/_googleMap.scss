@@ -7,8 +7,7 @@
 }
 
 .nosotros__mapa{
-    padding: 5px;
-    width:100%; 
+    @extend .mapa;
     height: 400px;
 
 }

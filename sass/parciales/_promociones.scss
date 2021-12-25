@@ -1,0 +1,9 @@
+@import "variables";
+@import "instalaciones";
+
+.promociones{
+    @extend .instalaciones;
+    h2{
+        font-size: 1.5rem;
+    }
+}

@@ -8,15 +8,18 @@
 @import "parciales/contactanos";
 @import "parciales/googleMap";
 @import "parciales/footer";
+@import "parciales/promociones";
+@import "parciales/mixin";
 
 
 @media(max-width:767px){
     .reverse{
-        display:flex;
-        flex-direction:column-reverse;
+        @include reverse(flex, column-reverse);
     }
     .button_promo{
         width: 100%;
+        background-color: map-get($botones, boton_promo);
+        border-color: map-get($botones, boton_promo);
     }
 }
 
